@@ -105,7 +105,7 @@ const Register = () => {
 
 
 const Login = () => {
-    const { state, dispatch } = useContext(userContext)
+    const { dispatch } = useContext(userContext)
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
